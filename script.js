@@ -19,3 +19,21 @@ console.log(typeof true) // Boolean
 console.log(typeof null) // Object --> Reason of null being object is because in JS the type tag of Object is '000' and unfortunately the type tag of null is same as of Object '000' that's why th data type of null is object
 
 
+// Question no.4 Write a program that swaps the values of two variables
+
+let a = 10;
+let b = 20;
+
+// // mathod 1
+
+// [a,b] = [b, a]
+// console.log(a,b) // 20 10
+let temp;
+
+console.log("Before swapping, a is " + a + " and b is " + b); // Before swapping, a is 10 and b is 20
+
+temp = a;
+a = b;
+b = temp;
+
+console.log("After swapping, a is " + a + " and b is " + b); // After swapping, a is 20 and b is 10
