@@ -117,6 +117,24 @@
 
 // Question no.9 Create an array of 5 numbers and log the sum using .reduce().
 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5]
 
-console.log(arr.reduce((acc, curr) => acc + curr)) // 15
+// console.log(arr.reduce((acc, curr) => acc + curr)) // 15
+
+
+// Question no.10 Explain the difference between undefined , null and NaN with examples
+
+// undefined -> Jab variable banaaoge aur value naa do to jo value by default milegi vo hai undefined
+
+// let x;
+// console.log(x) // undefined
+
+// null: null ka matlab hai value naa hona
+
+// let y = null
+// console.log(y) // null
+
+// NaN: mathematical invalid calculation will get you NaN
+
+// let z = "abc" * 10
+// console.log(z) // NaN
