@@ -24,7 +24,7 @@
 // let a = 10;
 // let b = 20;
 
-// // mathod 1
+// mathod 1
 
 // [a,b] = [b, a]
 // console.log(a,b) // 20 10
@@ -76,12 +76,47 @@
 
 // console.log(obj) // { name: 'John', age: 26, city: 'New York' } 
 
-// // now the question arises is that the obj is of constant type variable how can we change the values of it then the answer is that in constants we can not change the values but we can modify them 
+// now the question arises is that the obj is of constant type variable how can we change the values of it then the answer is that in constants we can not change the values but we can modify them 
 
-// // now if we want that our obj properties should not get changed then we need to use Object.freeze(obj_name)
+// now if we want that our obj properties should not get changed then we need to use Object.freeze(obj_name)
 
 // Object.freeze(obj)
 
 // obj.age = 27 // This will not change the value
 
 // console.log(obj) // { name: 'John', age: 26, city: 'New York' }
+
+
+// question no. 7 Convert "53" (String) into number using 3 different methods
+
+// let a = "53";
+// let b = 47;
+
+// console.log(+a +b) // using unary + operator
+// console.log(Number(a) + b) // using Number() method
+// console.log(parseInt(a) + b) // using parseInt() method 
+
+// Question no.8 Check if "Javascript" contains "Script" without using .includes()
+
+// let str = "Javascript"
+
+// console.log(str.indexOf("script") !== 1) // true
+
+// if(str.indexOf("script") === -1){
+//     console.log(false)
+// }else{
+//     console.log(true)
+// }
+
+
+// if(str.search("script") === -1){
+//     console.log(false)
+// }else{
+//     console.log(true)
+// }
+
+// Question no.9 Create an array of 5 numbers and log the sum using .reduce().
+
+let arr = [1,2,3,4,5]
+
+console.log(arr.reduce((acc, curr) => acc + curr)) // 15
