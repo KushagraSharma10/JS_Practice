@@ -64,4 +64,24 @@
 // console.log("paani puri 40")
 // console.groupEnd()
 
-// Question no.6 
+// Question no.6 declare a const object and modify its properties and log the updated object
+
+// const obj = {
+//     name: "John",
+//     age: 30,
+//     city: "New York",
+// }
+
+// obj.age = 26
+
+// console.log(obj) // { name: 'John', age: 26, city: 'New York' } 
+
+// // now the question arises is that the obj is of constant type variable how can we change the values of it then the answer is that in constants we can not change the values but we can modify them 
+
+// // now if we want that our obj properties should not get changed then we need to use Object.freeze(obj_name)
+
+// Object.freeze(obj)
+
+// obj.age = 27 // This will not change the value
+
+// console.log(obj) // { name: 'John', age: 26, city: 'New York' }
