@@ -154,7 +154,15 @@
 
 //  while(num++ < 30){
 //    if(num %3 === 0){
-//       console.log(num);
+      // console.log(num);
 //    }
 //  }
 
+
+// Question no. 13 write a program to calculate sum of numbers from 1 to 100 using a loop
+// let sum = 0;
+// for(let i = 1; i<=100; i++){
+//    sum += i;
+// }
+
+// console.log(sum)
