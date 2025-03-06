@@ -146,3 +146,15 @@
 // for(let i= 10; i>0 ; i--){
 //    console.log(i);
 // }
+
+
+// Question no. 12 Use a while loop to print multiples of 3 from 3 to 30;
+
+//  let num = 0;
+
+//  while(num++ < 30){
+//    if(num %3 === 0){
+//       console.log(num);
+//    }
+//  }
+
