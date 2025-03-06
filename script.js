@@ -176,7 +176,7 @@
 //    console.log(i)
 // }
 
-// Question no.16 Remove duplicate values from array
+// Question no.16 Remove duplicate values from an array
 
 // method 1 using Set
 
@@ -193,3 +193,42 @@
 // })
 
 // console.log("ans:" ,ans)
+
+// Question no.17 find the second largest element in an array
+
+// var arr = [ 3,1,4,3,1,4,2,5]
+
+// method 1 
+
+// unique using Set - [3,1,4,2,5]
+// var ans = [...new Set(arr)]
+
+// sort arr in descending order - [5,4,3,2,1]
+// var newArr = ans.sort((a,b)=>{
+//    return b-a
+// })
+// 1st arr[1] = 4
+
+// console.log(newArr[1])
+
+// method 2
+
+// function secondLargest(arr){
+//    var highest =Math.max(arr[0], arr[1]);
+//    var secondHighest =Math.min(arr[0], arr[1]);
+   
+
+//    for(let i = 0; i< arr.length; i++){
+//       if(arr[i] > highest){
+//          secondHighest = highest;
+//          highest = arr[i];
+//       }else if(arr[i] < highest && arr[i] > secondHighest){
+//          secondHighest = arr[i];
+//       }
+//    }
+//    console.log(highest)
+//    console.log(secondHighest)
+//   return secondHighest
+// }
+
+// secondLargest(arr)
