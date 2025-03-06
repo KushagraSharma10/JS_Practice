@@ -132,8 +132,6 @@
 // let z = "abc" * 10
 // console.log(z) // NaN
 
-// Loop (5 Questions)
-
 // Question no.11 Write a for loop to print numbers from 10 to 1 in reverse.
 
 // for(let i= 10; i>0 ; i--){
@@ -178,3 +176,20 @@
 //    console.log(i)
 // }
 
+// Question no.16 Remove duplicate values from array
+
+// method 1 using Set
+
+// let arr = [1,1,1,1,1,1,2,2,3,3,3,4,5]
+
+// let ans = [...new Set(arr)]
+
+// console.log(ans)
+
+// method 2 using filter and indexOf
+
+// let ans = arr.filter((item, index)=>{
+//    return arr.indexOf(item) === index
+// })
+
+// console.log("ans:" ,ans)
