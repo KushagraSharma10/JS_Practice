@@ -6,7 +6,6 @@
 // console.info("Hello World")
 // console.table({name: "Kartik", age:22})
 
-
 // Question no.2 Perform 35 * 2 - ( 10 / 2 ) + 7 and log the result
 
 // console.log(35 * 2 - ( 10 / 2 ) + 7) // 72
@@ -17,7 +16,6 @@
 // console.log(typeof 123) // Number
 // console.log(typeof true) // Boolean
 // console.log(typeof null) // Object --> Reason of null being object is because in JS the type tag of Object is '000' and unfortunately the type tag of null is same as of Object '000' that's why th data type of null is object
-
 
 // Question no.4 Write a program that swaps the values of two variables
 
@@ -40,14 +38,13 @@
 
 // console.log("After swapping, a is " + a + " and b is " + b); // After swapping, a is 20 and b is 10
 
-// method 3 
+// method 3
 
 // a = a+b;
 // b = a-b;
 // a = a-b;
 
-// console.log(a,b) // 20 10   
-
+// console.log(a,b) // 20 10
 
 // question no.5 use console.group() to organise logs into a group
 
@@ -56,7 +53,6 @@
 // console.log("neebu paani 20")
 // console.log("paani puri 40")
 // console.groupEnd()
-
 
 // console.groupCollapsed("Aaj ka hisaab");
 // console.log("daal chaawal 50")
@@ -74,9 +70,9 @@
 
 // obj.age = 26
 
-// console.log(obj) // { name: 'John', age: 26, city: 'New York' } 
+// console.log(obj) // { name: 'John', age: 26, city: 'New York' }
 
-// now the question arises is that the obj is of constant type variable how can we change the values of it then the answer is that in constants we can not change the values but we can modify them 
+// now the question arises is that the obj is of constant type variable how can we change the values of it then the answer is that in constants we can not change the values but we can modify them
 
 // now if we want that our obj properties should not get changed then we need to use Object.freeze(obj_name)
 
@@ -86,7 +82,6 @@
 
 // console.log(obj) // { name: 'John', age: 26, city: 'New York' }
 
-
 // question no. 7 Convert "53" (String) into number using 3 different methods
 
 // let a = "53";
@@ -94,7 +89,7 @@
 
 // console.log(+a +b) // using unary + operator
 // console.log(Number(a) + b) // using Number() method
-// console.log(parseInt(a) + b) // using parseInt() method 
+// console.log(parseInt(a) + b) // using parseInt() method
 
 // Question no.8 Check if "Javascript" contains "Script" without using .includes()
 
@@ -108,7 +103,6 @@
 //     console.log(true)
 // }
 
-
 // if(str.search("script") === -1){
 //     console.log(false)
 // }else{
@@ -120,7 +114,6 @@
 // let arr = [1,2,3,4,5]
 
 // console.log(arr.reduce((acc, curr) => acc + curr)) // 15
-
 
 // Question no.10 Explain the difference between undefined , null and NaN with examples
 
@@ -147,17 +140,14 @@
 //    console.log(i);
 // }
 
-
 // Question no. 12 Use a while loop to print multiples of 3 from 3 to 30;
 
-//  let num = 0;
+// let num = 3;
 
-//  while(num++ < 30){
-//    if(num %3 === 0){
-      // console.log(num);
-//    }
-//  }
-
+// while (num <= 30) {
+//   console.log(num);
+//   num += 3;
+// }
 
 // Question no. 13 write a program to calculate sum of numbers from 1 to 100 using a loop
 // let sum = 0;
@@ -167,15 +157,24 @@
 
 // console.log(sum)
 
-
 // Question no. 14 Create a nested loop to print a star pattern
-let output = ""
-for(let i = 1; i<=5; i++){
-    let str = ""
-   for(let j = 1; j<=5; j++){
-      str += "*"
-   }
-   output += str + "\n"
-    
-}
-console.log(output)
+// let output = ""
+// for(let i = 1; i<=5; i++){
+//     let str = ""
+//    for(let j = 1; j<=5; j++){
+//       str += "*"
+//    }
+//    output += str + "\n"
+
+// }
+// console.log(output)
+
+
+// Question no.15 Use a for...of loop to iterate over string "Javascript"
+
+// let str = "Javascript"
+
+// for(let i of str){
+//    console.log(i)
+// }
+
