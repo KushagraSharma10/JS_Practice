@@ -166,3 +166,16 @@
 // }
 
 // console.log(sum)
+
+
+// Question no. 14 Create a nested loop to print a star pattern
+let output = ""
+for(let i = 1; i<=5; i++){
+    let str = ""
+   for(let j = 1; j<=5; j++){
+      str += "*"
+   }
+   output += str + "\n"
+    
+}
+console.log(output)
