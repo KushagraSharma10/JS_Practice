@@ -232,3 +232,15 @@
 // }
 
 // secondLargest(arr)
+
+// Question no. 18 Sort an array in descending order
+
+// let arr = [3,1,2,5,4];
+
+// let ans = [...arr]
+
+// let sortedArr = ans.sort((a,b)=>{
+//    return b-a
+// })
+
+// console.log(sortedArr)
