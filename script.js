@@ -361,3 +361,22 @@
 // }
 
 // console.log(arr);
+
+
+// Question no. 30. Write a program that creates a copy of an array without mutating the original
+
+// let arr = [11,24,36,4,5]
+
+// method 1 
+
+// let copyArr = [...arr]
+
+// console.log(copyArr)
+
+// method 2
+
+// let arr2 = []
+
+// arr.forEach((value) => arr2.push(value))
+
+// console.log(arr2)
