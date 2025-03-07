@@ -261,3 +261,31 @@
 // }
 
 // console.log(reverseArr(arr))
+
+// method 2 
+// let start, end;
+// function reverse(arr,  ){
+
+// }
+
+
+// Question no. 20 Find the most frequent element in an array. 
+// let arr = [3,4,1,3,4,6,7]
+// let obj = {}
+
+// arr.forEach(function(val){
+//     obj[val] === undefined ? obj[val] = 1 : obj[val]++;
+// })
+
+// console.log(obj)
+
+// Question no. 21 write a while loop that logs numbers from 1 to 100 divisible by 5.
+
+// let i = 1;
+
+// while(i<101){
+//     if(i % 5 === 0){
+//         console.log(i)
+//     }
+//     i++;
+// }
