@@ -167,7 +167,6 @@
 // }
 // console.log(output)
 
-
 // Question no.15 Use a for...of loop to iterate over string "Javascript"
 
 // let str = "Javascript"
@@ -198,7 +197,7 @@
 
 // var arr = [ 3,1,4,3,1,4,2,5]
 
-// method 1 
+// method 1
 
 // unique using Set - [3,1,4,2,5]
 // var ans = [...new Set(arr)]
@@ -216,7 +215,6 @@
 // function secondLargest(arr){
 //    var highest =Math.max(arr[0], arr[1]);
 //    var secondHighest =Math.min(arr[0], arr[1]);
-   
 
 //    for(let i = 0; i< arr.length; i++){
 //       if(arr[i] > highest){
@@ -245,7 +243,6 @@
 
 // console.log(sortedArr)
 
-
 // Question no.19 Reverse an array without using .reverse()
 
 // let arr = [1,2,3,4,5]
@@ -262,14 +259,13 @@
 
 // console.log(reverseArr(arr))
 
-// method 2 
+// method 2
 // let start, end;
 // function reverse(arr,  ){
 
 // }
 
-
-// Question no.20 Find the most frequent element in an array. 
+// Question no.20 Find the most frequent element in an array.
 // let arr = [3,4,1,3,4,6,7]
 // let obj = {}
 
@@ -290,7 +286,7 @@
 //     i++;
 // }
 
-// Question no.22 Use a for... in loop to iterate over and object and log its keys 
+// Question no.22 Use a for... in loop to iterate over and object and log its keys
 
 // let obj = {name: "Kush", age: 20}
 
@@ -304,7 +300,7 @@
 
 // arr.forEach((item) => console.log(item))
 
-// Question no.24 Add two elements to the start of an array using .unshift() 
+// Question no.24 Add two elements to the start of an array using .unshift()
 
 // let arr = [1,2,3,4,5]
 
@@ -342,3 +338,26 @@
 // let checkVal = arr.includes(3)
 
 // console.log(checkVal) // true
+
+// Question no.29 sort an array of numbers [5,2,9,1]
+
+// method 1
+// let arr = [5, 2, 9, 1];
+
+// arr.sort((a,b) => a-b)
+
+// console.log(arr)
+
+// method 2
+
+// for (let i = 0; i < arr.length - 1; i++) {
+//   for (let j = 0; j < arr.length - i - 1; j++) {
+//     if (arr[j] > arr[j + 1]) {
+//       let temp = arr[j];
+//       arr[j] = arr[j + 1];
+//       arr[j + 1] = temp;
+//     }
+//   }
+// }
+
+// console.log(arr);
