@@ -319,3 +319,10 @@
 // arr.pop()
 
 // console.log(arr)
+
+// Question no. 26 use .slice() to extract the first 3 elements of an array
+
+// let arr = [1,2,3,4,5,6];
+
+// let ans = arr.slice(0,3)
+// console.log(ans)
