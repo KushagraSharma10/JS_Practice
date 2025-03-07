@@ -289,3 +289,11 @@
 //     }
 //     i++;
 // }
+
+// Question no. 22 Use a for... in loop to iterate over and object and log its keys 
+
+// let obj = {name: "Kush", age: 20}
+
+// for(let key in obj){
+//     console.log(key)
+// }
