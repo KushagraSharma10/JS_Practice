@@ -233,7 +233,7 @@
 
 // secondLargest(arr)
 
-// Question no. 18 Sort an array in descending order
+// Question no.18 Sort an array in descending order
 
 // let arr = [3,1,2,5,4];
 
@@ -246,7 +246,7 @@
 // console.log(sortedArr)
 
 
-// Question no. 19 Reverse an array without using .reverse()
+// Question no.19 Reverse an array without using .reverse()
 
 // let arr = [1,2,3,4,5]
 
@@ -269,7 +269,7 @@
 // }
 
 
-// Question no. 20 Find the most frequent element in an array. 
+// Question no.20 Find the most frequent element in an array. 
 // let arr = [3,4,1,3,4,6,7]
 // let obj = {}
 
@@ -279,7 +279,7 @@
 
 // console.log(obj)
 
-// Question no. 21 write a while loop that logs numbers from 1 to 100 divisible by 5.
+// Question no.21 write a while loop that logs numbers from 1 to 100 divisible by 5.
 
 // let i = 1;
 
@@ -290,7 +290,7 @@
 //     i++;
 // }
 
-// Question no. 22 Use a for... in loop to iterate over and object and log its keys 
+// Question no.22 Use a for... in loop to iterate over and object and log its keys 
 
 // let obj = {name: "Kush", age: 20}
 
@@ -298,13 +298,13 @@
 //     console.log(key)
 // }
 
-// Question no. 23 Create an array of your 5 favorite movies and log it.
+// Question no.23 Create an array of your 5 favorite movies and log it.
 
 // let arr = ["Shawshank Redemption", "The Dark Knight", "KGF", "3-idiots", "John Wick"]
 
 // arr.forEach((item) => console.log(item))
 
-// Question no. 24 Add two elements to the start of an array using .unshift() 
+// Question no.24 Add two elements to the start of an array using .unshift() 
 
 // let arr = [1,2,3,4,5]
 
@@ -312,7 +312,7 @@
 
 // console.log(arr)
 
-// Question no. 25 Remove the last element of an array and log the updated array
+// Question no.25 Remove the last element of an array and log the updated array
 
 // let arr = [1,2,3,4,5]
 
@@ -320,9 +320,17 @@
 
 // console.log(arr)
 
-// Question no. 26 use .slice() to extract the first 3 elements of an array
+// Question no.26 use .slice() to extract the first 3 elements of an array
 
 // let arr = [1,2,3,4,5,6];
 
 // let ans = arr.slice(0,3)
 // console.log(ans)
+
+// Question no.27 find the index of a specific element in an array using indexOf().
+
+// let arr = [1,2,3,4,5]
+
+// let index = arr.indexOf(3);
+
+// console.log(index) // 2
