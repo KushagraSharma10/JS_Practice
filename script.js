@@ -334,3 +334,11 @@
 // let index = arr.indexOf(3);
 
 // console.log(index) // 2
+
+// Question no.28 Check if a value exists in an array using .includes()
+
+// let arr = [1,2,3,4,5]
+
+// let checkVal = arr.includes(3)
+
+// console.log(checkVal) // true
