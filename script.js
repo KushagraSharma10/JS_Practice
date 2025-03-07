@@ -297,3 +297,10 @@
 // for(let key in obj){
 //     console.log(key)
 // }
+
+// Question no. 23 Create an array of your 5 favorite movies and log it.
+
+// let arr = ["Shawshank Redemption", "The Dark Knight", "KGF", "3-idiots", "John Wick"]
+
+// arr.forEach((item) => console.log(item))
+
