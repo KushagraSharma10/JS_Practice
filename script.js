@@ -311,3 +311,11 @@
 // arr.unshift(10,11)
 
 // console.log(arr)
+
+// Question no. 25 Remove the last element of an array and log the updated array
+
+// let arr = [1,2,3,4,5]
+
+// arr.pop()
+
+// console.log(arr)
