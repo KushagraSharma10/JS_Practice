@@ -363,7 +363,7 @@
 // console.log(arr);
 
 
-// Question no. 30. Write a program that creates a copy of an array without mutating the original
+// Question 30. Write a program that creates a copy of an array without mutating the original
 
 // let arr = [11,24,36,4,5]
 
@@ -397,8 +397,9 @@
 
 // console.log(AreaOfCircle(4))
 
-// Question no. 33 Write a function that accepts an array and returns the sum of its elements.
+// Question 33 Write a function that accepts an array and returns the sum of its elements.
 
+// method 1
 // function arrSum(arr){
 //     let sum = 0
 //     arr.forEach((item) => {
@@ -408,9 +409,18 @@
 //     return sum;
 // }
 
+// method 2 using reduce function
+
+// function arrSum(arr){
+//     return arr.reduce((acc, item) => {
+//         return acc + item
+//     },0);
+
+// }
+
 // console.log(arrSum([1,2,3,4,5]))
 
-// Question no. 34 Create a function that checks if a string starts with a specific character.
+// Question 34 Create a function that checks if a string starts with a specific character.
 
 // function checkStr(str, char){
 //     return str.charAt(0) === char ? true : false;    
@@ -418,10 +428,32 @@
 
 // console.log(checkStr("Hello World", "H"))
 
-// Question no. 35 Write a function to find maximum of two numbers.
+// Question 35. Write a function to find maximum of two numbers.
 
 // function findMax(a, b){
 //     return a> b ? a: b; 
 // }
 
-// console.log(findMax(5, 10))
+// console.log(findMax(5, 10)) // 10
+
+// Question 36. Create a function that takes a number and return its factorial.
+
+// method 1
+// function factorial(n){
+//    let fact = 1;
+//    for(let i = 1; i<=n; i++){
+//        fact *= i;
+//    }
+
+//    return fact;
+// }
+
+// method 2 using recursion
+
+// function factorial(n){
+//    if(n === 0) return 1;
+//    else if(n === 1) return n;
+//    else return n * factorial(n-1)
+//  }
+
+console.log(factorial(6)) // 120
