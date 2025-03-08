@@ -458,7 +458,7 @@
 
 // console.log(factorial(6)) // 120
 
-// Question no. 37 write a function that accepts a string and return its reverse
+// Question 37 write a function that accepts a string and return its reverse
 
 // function reverseStr(str){
 //     return str.split('').reverse().join('');
@@ -466,7 +466,7 @@
 
 // console.log(reverseStr("12345")) // 54321
 
-// Question no. 38 Create a function to find largest number in the array.
+// Question 38 Create a function to find largest number in the array.
 
 // function LargestNumber(arr){
 //     let highest = arr[0];
@@ -479,3 +479,11 @@
 // }
 
 // console.log(LargestNumber([1, 21, 3]));
+
+// Question 39. Write a function that converts string to Kebab-Case (e.g. "hello world" -> "hello-world").
+
+// function strToKebabCase(str){
+//     return str.split(' ').join('-');
+// }
+
+// console.log(strToKebabCase("hello world"))
