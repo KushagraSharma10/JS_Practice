@@ -383,8 +383,16 @@
 
 // Question 31. Write a function to check if a number is even or odd.
 
-function CheckEvenOrOdd(n){
-    return n % 2 === 0 ? "Even" : "Odd";
-}
+// function CheckEvenOrOdd(n){
+//     return n % 2 === 0 ? "Even" : "Odd";
+// }
 
-console.log(CheckEvenOrOdd(32))
+// console.log(CheckEvenOrOdd(32))
+
+// Question 32. Create a function to calculate the area of circle with a given radius.
+
+// function AreaOfCircle(rad){
+//     return (Math.PI * rad * rad).toFixed(2);
+// }
+
+// console.log(AreaOfCircle(4))
