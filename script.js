@@ -498,3 +498,11 @@
 // hello() // Hello World
 // hello() // Hello World
 // hello() // Hello World
+
+// Question 41. Write a javascript program to check two numbers and return true if one of the number is 100 or if the sum of the two numbers is 100
+
+// function checkNum(a, b){
+//     return (a === 100 || b === 100 || a + b === 100) ? true: false;
+// }
+
+// console.log(checkNum(50,50))
