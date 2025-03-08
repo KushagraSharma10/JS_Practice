@@ -514,3 +514,11 @@
 // }
 
 // console.log(getExtension('example.html')) // .txt
+
+// Question 43. Write a javascript program to replace every character in the string with the character following it in the alphabetic order.
+
+// function replaceChar(str){
+//     return str.split('').map((char) => String.fromCharCode(char.charCodeAt(0) + 1))
+// }
+
+// console.log(replaceChar("Hello")) 
