@@ -396,3 +396,18 @@
 // }
 
 // console.log(AreaOfCircle(4))
+
+// Question no. 33 Write a function that accepts an array and returns the sum of its elements.
+
+// function arrSum(arr){
+//     let sum = 0
+//     arr.forEach((item) => {
+//         sum  += item
+//     });
+
+//     return sum;
+// }
+
+// console.log(arrSum([1,2,3,4,5]))
+
+// Question no. 34 Create a function that checks if a string starts with a specific character.
