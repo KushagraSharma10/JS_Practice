@@ -411,3 +411,9 @@
 // console.log(arrSum([1,2,3,4,5]))
 
 // Question no. 34 Create a function that checks if a string starts with a specific character.
+
+// function checkStr(str, char){
+//     return str.charAt(0) === char ? true : false;    
+// }
+
+// console.log(checkStr("Hello World", "H"))
