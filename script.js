@@ -506,3 +506,11 @@
 // }
 
 // console.log(checkNum(50,50))
+
+// Question 42. write a javascript program to get the extension of filename.
+
+// function getExtension(name) {
+//     return name.slice(name.lastIndexOf("."))
+// }
+
+// console.log(getExtension('example.html')) // .txt
