@@ -417,3 +417,11 @@
 // }
 
 // console.log(checkStr("Hello World", "H"))
+
+// Question no. 35 Write a function to find maximum of two numbers.
+
+// function findMax(a, b){
+//     return a> b ? a: b; 
+// }
+
+// console.log(findMax(5, 10))
