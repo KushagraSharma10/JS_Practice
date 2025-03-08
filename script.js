@@ -380,3 +380,11 @@
 // arr.forEach((value) => arr2.push(value))
 
 // console.log(arr2)
+
+// Question 31. Write a function to check if a number is even or odd.
+
+function CheckEvenOrOdd(n){
+    return n % 2 === 0 ? "Even" : "Odd";
+}
+
+console.log(CheckEvenOrOdd(32))
