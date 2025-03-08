@@ -465,3 +465,17 @@
 // }
 
 // console.log(reverseStr("12345")) // 54321
+
+// Question no. 38 Create a function to find largest number in the array.
+
+// function LargestNumber(arr){
+//     let highest = arr[0];
+//     for(let i = 1; i<arr.length; i++){
+//         if(arr[i] > highest){
+//             highest = arr[i];
+//         }
+//     }
+//     return highest
+// }
+
+// console.log(LargestNumber([1, 21, 3]));
