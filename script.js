@@ -456,4 +456,12 @@
 //    else return n * factorial(n-1)
 //  }
 
-console.log(factorial(6)) // 120
+// console.log(factorial(6)) // 120
+
+// Question no. 37 write a function that accepts a string and return its reverse
+
+// function reverseStr(str){
+//     return str.split('').reverse().join('');
+// }
+
+// console.log(reverseStr("12345")) // 54321
