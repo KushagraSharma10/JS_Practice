@@ -483,7 +483,18 @@
 // Question 39. Write a function that converts string to Kebab-Case (e.g. "hello world" -> "hello-world").
 
 // function strToKebabCase(str){
-//     return str.split(' ').join('-');
+    // return str.split(' ').join('-');
+//     return str.replace(' ', '-');
 // }
 
 // console.log(strToKebabCase("hello world"))
+
+// Question 40. Create a function that logs "Hello World" every time it is called.
+
+// function hello(){
+//     console.log("Hello World");
+// }
+
+// hello() // Hello World
+// hello() // Hello World
+// hello() // Hello World
