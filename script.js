@@ -592,3 +592,11 @@
 
 // console.log(checkStr("ooh",'o'))
 // console.log(checkStr("ooooohhh",'o'))
+
+// Question 51. write a javascript program to find the number of even digits in an array of integers.
+
+// function evenArr(arr){
+//     return arr.filter((i) => i % 2 === 0)
+// }
+
+// console.log(evenArr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // [2, 4, 6, 8, 10]
