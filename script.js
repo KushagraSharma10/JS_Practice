@@ -563,3 +563,11 @@
 // }
 
 // console.log(getHalfStr("Doncic"))
+
+// Question 48. Write   a javascript program to concatenate two Strings except their first character.
+
+// function addTwoStr(str1, str2){
+//     return str1.slice(1) + str2.slice(1)
+// }
+
+// console.log(addTwoStr("Hello","World")) // elloorld
