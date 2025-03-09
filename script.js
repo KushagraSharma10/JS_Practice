@@ -535,3 +535,14 @@
 // console.log(`dd-mm-yyyy: ${day}-${month}-${year}`)
 // console.log(`dd/mm/yyyy: ${day}/${month}/${year}`)
 // console.log(`mm/dd/yyyy: ${month}/${day}/${year}`)
+
+// Question 45 write a javascript program to create a new String adding "New!" in the front of a given string. If the given string begins with "New!" already, then return the original string.
+
+// let str = "New! Hello bhai kesa h"
+
+// function addNew(str){
+//     if(str.startsWith("New!")) return str
+//     return str.split(" ").unshift("New!").join(" ")
+// }
+
+// console.log(addNew(str))
