@@ -555,3 +555,11 @@
 // }
 
 // console.log(NewStr("JavaScript"))
+
+// Question 47. Write a javascript program to extract the firstHalf of a string of even length.
+
+// function getHalfStr(str){
+//     return str.slice(0, Math.floor(str.length / 2))
+// }
+
+// console.log(getHalfStr("Doncic"))
