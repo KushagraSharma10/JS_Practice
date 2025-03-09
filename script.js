@@ -626,3 +626,11 @@
 // }
 
 // console.log(FindLargestEven([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // 10
+
+// Question 54. Write a javascript program to replace the first digit in a string (should contain at least digit) with $ characters.
+
+// function replaceFirstDigit(str){
+//     return str.replace(str[0], "$");
+// }
+
+// console.log(replaceFirstDigit("12345")) // $2345
