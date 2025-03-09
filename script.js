@@ -596,7 +596,19 @@
 // Question 51. write a javascript program to find the number of even digits in an array of integers.
 
 // function evenArr(arr){
-//     return arr.filter((i) => i % 2 === 0)
+//     return arr.filter((i) => i % 2 === 0).length
 // }
 
-// console.log(evenArr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // [2, 4, 6, 8, 10]
+// console.log(evenArr([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // [2, 4, 6, 8, 10] so ans is 5 
+
+// Question 52. write a javascript program to check whether a given array of integers is sorted in ascending order.
+
+// function isSorted(arr){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] > arr[i+1]) return false
+//     }
+
+//     return true
+// }
+
+// console.log(isSorted([1, 2, 3, 4, 5])) // true
