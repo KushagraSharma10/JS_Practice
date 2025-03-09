@@ -574,8 +574,21 @@
 
 // Question 49. Given two values,  write a javascript program to find out which one is nearest to 100.
 
-// function check(a, b){
+// function closeTo100(a, b){
 //     return Math.abs(100 - a) < Math.abs(100 - b) ? a : b;
 // }
 
-// console.log(check(105, 90)) 
+// console.log(closeTo100(105, 90)) 
+
+// Question 50. Write a javascript program to check a given string contains 2 to 4 occurences of a specified character.
+
+// function countChars(str, char){
+//     return str.split('').filter(ch => ch === char).length
+// }
+
+// function checkStr(str, char){
+//     return countChars(str, char) >= 2 && countChars(str, char) <= 4;
+// }
+
+// console.log(checkStr("ooh",'o'))
+// console.log(checkStr("ooooohhh",'o'))
