@@ -630,7 +630,15 @@
 // Question 54. Write a javascript program to replace the first digit in a string (should contain at least digit) with $ characters.
 
 // function replaceFirstDigit(str){
-//     return str.replace(str[0], "$");
+//     return str.replace(/[0-9]/, "$");
 // }
 
-// console.log(replaceFirstDigit("12345")) // $2345
+// console.log(replaceFirstDigit("A1bcs23")) // A$bcs23
+
+// Question 55. Given a year , report if the year is leap year or not.
+
+// function isLeapYear(year){
+//     return (year % 4 === 0 && year % 100!== 0) || year % 400 === 0 ? true: false
+// }
+
+// console.log(isLeapYear(2025)) // false
