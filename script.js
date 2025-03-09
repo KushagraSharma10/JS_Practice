@@ -522,3 +522,16 @@
 // }
 
 // console.log(replaceChar("abcd")) 
+
+// Question 44. write a javascript program to get the current date.
+
+// let date = new Date();
+
+// let day = date.getDate();
+// let month = date.getMonth();
+// let year = date.getFullYear();
+
+// console.log(`mm-dd-yyyy: ${month}-${day}-${year}`)
+// console.log(`dd-mm-yyyy: ${day}-${month}-${year}`)
+// console.log(`dd/mm/yyyy: ${day}/${month}/${year}`)
+// console.log(`mm/dd/yyyy: ${month}/${day}/${year}`)
