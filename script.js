@@ -546,3 +546,12 @@
 // }
 
 // console.log(addNew(str))
+
+// Question 46. Write a javascript program to create a new String from a given string taking first 3 characters and last 3 characters and adding them together. The String length must be 3 or more , if not the original string is returned.
+
+// function NewStr(str){
+//     if(str.length < 3) return str
+//     return str.slice(0,3) + str.slice(-3);
+// }
+
+// console.log(NewStr("JavaScript"))
