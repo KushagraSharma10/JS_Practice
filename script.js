@@ -571,3 +571,11 @@
 // }
 
 // console.log(addTwoStr("Hello","World")) // elloorld
+
+// Question 49. Given two values,  write a javascript program to find out which one is nearest to 100.
+
+// function check(a, b){
+//     return Math.abs(100 - a) < Math.abs(100 - b) ? a : b;
+// }
+
+// console.log(check(105, 90)) 
