@@ -680,3 +680,11 @@
 // }
 
 // console.log(generateRandomColor()) 
+
+// Question 59. write a javascript function that returns a passed string with letters in alphabetical order.
+
+function sortedStr(str){
+    return str.split('').sort(). join('')
+}
+
+console.log(sortedStr("webmaster")) // "abeemrstw"
