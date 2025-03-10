@@ -638,7 +638,8 @@
 // Question 55. Given a year , report if the year is leap year or not.
 
 // function isLeapYear(year){
-//     return (year % 4 === 0 && year % 100!== 0) || year % 400 === 0 ? true: false
+//     return (year % 4 === 0 && year % 100!== 0) || year % 400 === 0 ? "leap year": "Not leap year"
 // }
 
 // console.log(isLeapYear(2025)) // false
+
