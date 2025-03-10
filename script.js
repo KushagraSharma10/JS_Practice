@@ -667,4 +667,4 @@
 //     return str.split('\n').map((row)=> row.split(','))
 // }
 
-// console.log(csvToArray(str)) // [["abc", "def", "ghi"], ["jkl", "mno", "pqr"], ["stu", "vwx", "yza"]]
+console.log(csvToArray(str)) // [["abc", "def", "ghi"], ["jkl", "mno", "pqr"], ["stu", "vwx", "yza"]]
