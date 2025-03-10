@@ -643,3 +643,28 @@
 
 // console.log(isLeapYear(2025)) // false
 
+// Question 56. write a javascript program to compare two objects to determine if the first object contains the same properties as the second object(which may also have additional properties).
+
+// function compareObjects(obj1, obj2){
+//     return Object.keys(obj1).every((key) => obj2[key] !== obj1[key])
+// }
+
+// let obj1 = {name: "John", age: 30}  
+// let obj2 = {name: "kush", age: 26}  
+// let obj3 = {name: "John", age: 30, city: "New York"}
+// console.log(compareObjects(obj1, obj2)) // true
+// console.log(compareObjects(obj1, obj3)) // false
+
+
+// Question 57. write a javascript program to convert a comma-separated values (CSV) string to 2D array. A new line indicates a new row in the array.
+
+
+// let str = `abc,def,ghi
+// jkl, mno, pqr
+// stu, vwx, yza`
+
+// function csvToArray(str){
+//     return str.split('\n').map((row)=> row.split(','))
+// }
+
+// console.log(csvToArray(str)) // [["abc", "def", "ghi"], ["jkl", "mno", "pqr"], ["stu", "vwx", "yza"]]
