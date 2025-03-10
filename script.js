@@ -667,4 +667,16 @@
 //     return str.split('\n').map((row)=> row.split(','))
 // }
 
-console.log(csvToArray(str)) // [["abc", "def", "ghi"], ["jkl", "mno", "pqr"], ["stu", "vwx", "yza"]]
+// console.log(csvToArray(str)) // [["abc", "def", "ghi"], ["jkl", "mno", "pqr"], ["stu", "vwx", "yza"]]
+
+// Question 58. write a javascript program to generate a random Hexadecimal color code.
+
+// function getRandomHexColor(){
+//     return Math.floor(Math.random() * 16).toString(16);
+// }
+
+// function generateRandomColor(){
+//     return "#" + Array.from({length : 6}).map(getRandomHexColor).join('')
+// }
+
+// console.log(generateRandomColor()) 
