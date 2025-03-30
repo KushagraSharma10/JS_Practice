@@ -683,8 +683,21 @@
 
 // Question 59. write a javascript function that returns a passed string with letters in alphabetical order.
 
-function sortedStr(str){
-    return str.split('').sort(). join('')
+// function sortedStr(str){
+//     return str.split('').sort(). join('')
+// }
+
+// console.log(sortedStr("webmaster")) // "abeemrstw"
+
+
+// Closers and HOFs Questions
+
+// Question 60. Create a function that takes another function as an argument and calls it after 3 seconds
+
+function callFunction(fn){
+    setTimeout(fn, 3000)
 }
 
-console.log(sortedStr("webmaster")) // "abeemrstw"
+callFunction(function(){
+    console.log("I am called after 3 seconds")
+})
