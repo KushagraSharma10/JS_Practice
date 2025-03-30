@@ -6,6 +6,10 @@ function factorial(num) {
         throw new Error('Input must be a number');
     }
 
+    if(num < 0){
+        throw new Error('Input must be a positive integer');
+    }
+
     if(num === 0 || num === 1) {
         return 1;
     }
@@ -18,4 +22,14 @@ function factorial(num) {
     return fact;
 }
 
-console.log(factorial(6));
+
+function fact2(num){
+    if(num === 0 || num === 1) {
+        return 1;
+    }
+
+    return num * fact2(num - 1);
+}
+
+// console.log("factorial of 6 is =",factorial(6));
+console.log(fact2(5))
