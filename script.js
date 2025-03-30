@@ -721,3 +721,47 @@
 
 
 // console.log(ans) 
+
+// Question 62. Write a function that uses closures to create a counter.
+
+// function counter(){
+//     let count = 0;
+//     return function(){
+//         count++;
+//         console.log(count)
+//     }
+
+// }
+
+// let ans = counter();
+// ans();
+// ans();
+// ans();
+
+// Question 63. Implement a function that limits how many times another function can be called (Closure + HOF).
+
+// function fnLimiter(fn, limit){
+//     let total = 0;
+//     return function(){
+//         if(total < limit){
+//             total++;
+//             fn();
+//         }
+//         else{
+//             console.error("Limit reached")
+//         }
+//     }
+// }
+
+// var limit = fnLimiter(function(){
+//     console.log("Function called")
+// }, 4)
+
+// limit();
+// limit();
+// limit();
+// limit();
+// limit();
+
+
+// back to basic questions
