@@ -694,10 +694,30 @@
 
 // Question 60. Create a function that takes another function as an argument and calls it after 3 seconds
 
-function callFunction(fn){
-    setTimeout(fn, 3000)
-}
+// function callFunction(fn){
+//     setTimeout(fn, 3000)
+// }
 
-callFunction(function(){
-    console.log("I am called after 3 seconds")
-})
+// callFunction(function(){
+//     console.log("I am called after 3 seconds")
+// })
+
+// Question 61. Implement your own version of `.map()` as a higher-order function.
+
+
+// let arr = [1,2,3,4,5];
+
+// function kap(arr, fn){
+//     let newArray = [];
+//     for(let i = 0; i < arr.length; i++){
+//         newArray.push(fn(arr[i]))
+//     }
+//     return newArray;
+// }
+
+// var ans = kap(arr, function(value){
+//     return value + 2;
+// })
+
+
+// console.log(ans) 
