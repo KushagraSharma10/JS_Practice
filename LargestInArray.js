@@ -13,4 +13,10 @@ function largestInArray(arr){
     return largest;
 }
 
+function largestInArray2(arr){
+    return Math.max(...arr);
+}
+
 console.log(largestInArray([1,2,3,14,5]))
+
+console.log(largestInArray2([1,2,3,14,5]))
