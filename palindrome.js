@@ -2,7 +2,7 @@
 
 function isPalindrome(str) {
   let reverse = "";
-  for (let i = 0; i < str.length - 1; i++) {
+  for (let i = 0; i < str.length; i++) {
     reverse = str[i] + reverse;
   }
 
@@ -21,10 +21,28 @@ function isPalindrome2(str) {
   return true;
 }
 
+
+function isPalindrome3(str){
+  let start = 0;
+  let end = str.length - 1;
+  for(start, end; start < end; start++ , end--) {
+    if(str[start] !== str[end]){
+      return false;
+    }
+  }
+  return true;
+}
+
 // console.log(isPalindrome("madam")); // true
 
 // console.log(isPalindrome("hello")); // false
 
 // console.log(isPalindrome2("madam")); // true
 
-console.log(isPalindrome2("hello")); // false
+// console.log(isPalindrome2("hello")); // false
+
+console.log(isPalindrome3("madam")); // true
+
+console.log(isPalindrome3("hello")); // false
+
+
